@@ -1,0 +1,12 @@
+
+  Obs     x  y    test    response
+-----  ----  -  ------  ----------
+    1  x1    1  test A  response c
+    2  x2    0  test A  response c
+    3  x324  5  test A  response c
+    4  x1    2  test P  response 8
+    5  x2    1  test P  response 8
+    6  x501  4  test P  response 8
+    7  x1    2  test 7  response t
+    8  x2    1  test 7  response t
+    9  x936  4  test 7  response t

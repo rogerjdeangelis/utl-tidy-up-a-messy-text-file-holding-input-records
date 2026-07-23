@@ -1,0 +1,7 @@
+{
+    "bundle": "t001_tidy_untidy_records",
+    "source_file": "utl-tidy-up-a-messy-text-file-holding-input-records.sas",
+    "source_blob_sha": "69b28a037f62660c17c8168cfba06d58b8ba0cee",
+    "source_commit": "c84dd349aed0a3860c2cec2d62e581d417b3d7d0",
+    "notes": "The repo's tidy-up utility: a DATA step reads a messy text file where `test .. response ..` subheader lines are interleaved with detail rows, promotes each subheader into retained TEST/RESPONSE columns via `input @;` + `_infile_ =: 'test'` + substr, and outputs the detail rows underneath. The `data want` step is kept verbatim except the infile path. Upstream created the input file via the `filename ft15f001; parmcards4;` idiom writing to an absolute d:/txt path; here the identical 12 records are written to a relative ./untidy.txt with a portable DATA _NULL_ step so the bundle is self-contained. Output (9 obs, X/Y/TEST/RESPONSE) matches the author's documented WORK.WANT snapshot exactly."
+}

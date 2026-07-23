@@ -1,0 +1,24 @@
+NOTE: Option OBS changed to 100.
+NOTE: Fileref UNTIDY assigned to ./untidy.txt.
+NOTE: DATA _null_
+
+NOTE: Writing to fileref untidy (/tmp/work/r_df62fb7b5db54d9eb05107926f8d8847/untidy.txt)
+NOTE: Processing inline DATALINES (12 lines)
+
+NOTE: Read 12 rows from DATALINES.
+NOTE: Wrote _null_ (12 rows, 0 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA want
+
+NOTE: Reading from fileref ./untidy.txt (untidy.txt)
+
+NOTE: Read 12 rows from ./untidy.txt.
+NOTE: Wrote want (9 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=want
+
+NOTE: PROC PRINT completed: 9 observations printed, 4 variables

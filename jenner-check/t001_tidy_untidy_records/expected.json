@@ -1,0 +1,25 @@
+{
+    "_captured_at": "2026-07-23T13:52:00Z",
+    "_captured_run_id": "r_df62fb7b5db54d9eb05107926f8d8847",
+    "_captured_from": "https://api.jenneranalytics.com/v1/run",
+
+    "status": "ok",
+    "exit_code": 0,
+
+    "log_contains": [
+        "NOTE: Option OBS changed to 100.",
+        "NOTE: Read 12 rows from DATALINES.",
+        "NOTE: Read 12 rows from ./untidy.txt.",
+        "NOTE: Wrote want (9 rows, 4 columns).",
+        "NOTE: PROC PRINT completed: 9 observations printed, 4 variables"
+    ],
+    "log_does_not_contain": [
+        "ERROR:",
+        "[JENNER-ERROR"
+    ],
+
+    "diagnostics": {
+        "parse_warnings": [],
+        "runtime_warnings": []
+    }
+}
